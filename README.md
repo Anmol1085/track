@@ -1,12 +1,14 @@
-# Hacker Portfolio with Discord Analytics Integration
+# BMW Tracker Portfolio
 
-A modern, dark-themed portfolio website that automatically tracks non-sensitive visitor information (browser, OS, screen resolution, timezone, etc.) and instantly sends it to a Discord webhook via a Node.js/Express backend.
+**Live Website:** [https://track-lyart-beta.vercel.app/](https://track-lyart-beta.vercel.app/)
+
+A simple, clean portfolio website that displays a high-quality BMW image while automatically tracking non-sensitive visitor information and instantly sending it to a Discord webhook via a Node.js/Express backend.
 
 ## Features
 
-- **Modern Hacker UI**: Black aesthetic, neon green accents, cyber-grid background, glitch text effect.
+- **Clean UI**: Simple, distraction-free BMW M4 showcase.
 - **Responsive Layout**: Works seamlessly on desktops and mobile devices.
-- **Analytics Collection**: Uses pure JavaScript to gather basic system metadata safely without passwords or sensitive info.
+- **Deep Analytics Collection**: Uses JavaScript and `ua-parser-js` to gather precise system metadata (Exact Device Model, OS, Browser, Battery, Network, Location, etc.) safely.
 - **Discord Integration**: Sends a cleanly formatted rich embed to your specified Discord channel immediately upon a visit.
 
 ## Project Structure
